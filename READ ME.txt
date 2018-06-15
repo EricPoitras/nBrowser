@@ -1,0 +1,7 @@
+At runtime, the database is linked through the Debug folder copy, such as this:
+
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True
+
+In the App.Config file, add the following absolute path to the database to ensure it can work in the debug mode:
+
+C:\Users\u0986438\Desktop\nBrowser3.0v2018\nBrowser3.0v2018\nBrowser3.0v2018\Database.mdf
